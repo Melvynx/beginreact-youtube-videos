@@ -1,3 +1,17 @@
+import React from "react";
+
 export default function Components() {
-  return <div>Components</div>;
+  const returnText = React.createElement(
+    "div",
+    { className: "card bg-neutral text-neutral-content shadow-xl" },
+    React.createElement(
+      "div",
+      { className: "card-body" },
+      React.createElement("h2", { className: "card-title" }, "Components")
+    )
+  );
+
+  console.log(returnText);
+
+  return returnText;
 }
