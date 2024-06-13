@@ -1,8 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import Index from "./routes";
-import Components from "./routes/Components";
-import NotFound from "./routes/NotFound";
 import BeginReact from "./routes/BeginReact";
+import Components from "./routes/Components";
+import InputShuffle from "./routes/InputShuffle";
+import KeyInputDemo from "./routes/KeyInputDemo";
+import NotFound from "./routes/NotFound";
+import Videos from "./routes/Videos";
 
 export const router = createBrowserRouter([
   {
@@ -14,8 +17,20 @@ export const router = createBrowserRouter([
     element: <Components />,
   },
   {
+    path: "/components/cards",
+    element: <KeyInputDemo />,
+  },
+  {
+    path: "/components/input",
+    element: <InputShuffle />,
+  },
+  {
     path: "/beginreact",
     element: <BeginReact />,
+  },
+  {
+    path: "/videos",
+    element: <Videos />,
   },
   {
     path: "/*",
