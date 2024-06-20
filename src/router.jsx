@@ -5,6 +5,7 @@ import Components from "./routes/Components";
 import InputShuffle from "./routes/InputShuffle";
 import KeyInputDemo from "./routes/KeyInputDemo";
 import NotFound from "./routes/NotFound";
+import UseEffect from "./routes/UseEffect";
 import UseState from "./routes/UseState";
 import Videos from "./routes/Videos";
 
@@ -33,6 +34,10 @@ export const router = createBrowserRouter([
   {
     path: "/usestate",
     element: <UseState />,
+  },
+  {
+    path: "/useeffect",
+    element: <UseEffect />,
   },
   {
     path: "/videos",

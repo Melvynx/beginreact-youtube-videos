@@ -6,9 +6,9 @@ import "./index.css";
 import { router } from "./router.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  // <React.StrictMode>
-  <BeginReactLayout>
-    <RouterProvider router={router} />
-  </BeginReactLayout>
-  // </React.StrictMode>
+  <React.StrictMode>
+    <BeginReactLayout>
+      <RouterProvider router={router} />
+    </BeginReactLayout>
+  </React.StrictMode>
 );
