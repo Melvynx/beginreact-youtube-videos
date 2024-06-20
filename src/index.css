@@ -13,3 +13,8 @@ body,
 :root {
   font-family: "Inter", sans-serif;
 }
+
+.mon-super-button {
+  background: red;
+  padding: 24px 44px;
+}

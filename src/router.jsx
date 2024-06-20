@@ -5,6 +5,7 @@ import Components from "./routes/Components";
 import InputShuffle from "./routes/InputShuffle";
 import KeyInputDemo from "./routes/KeyInputDemo";
 import NotFound from "./routes/NotFound";
+import UseState from "./routes/UseState";
 import Videos from "./routes/Videos";
 
 export const router = createBrowserRouter([
@@ -28,6 +29,10 @@ export const router = createBrowserRouter([
   {
     path: "/beginreact",
     element: <BeginReact />,
+  },
+  {
+    path: "/usestate",
+    element: <UseState />,
   },
   {
     path: "/videos",

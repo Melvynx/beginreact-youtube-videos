@@ -48,7 +48,7 @@ export default function Videos() {
       <div className="card w-full border border-neutral-content/50 bg-neutral text-neutral-content shadow-xl">
         <div className="card-body">
           <h2 className="card-title">
-            React #2 : UseEffect + Fetch de données + SWR
+            React #3 : UseEffect + Fetch de données + SWR
           </h2>
           <p>
             useEffect est trop utilisé car il est mal compris, il faut vraiment
@@ -62,7 +62,7 @@ export default function Videos() {
 
       <div className="card w-full border border-neutral-content/50 bg-neutral text-neutral-content shadow-xl">
         <div className="card-body">
-          <h2 className="card-title">React #3 : UseContext + Zustand</h2>
+          <h2 className="card-title">React #4 : UseContext + Zustand</h2>
           <p>
             useContext ne permet PAS de gérer des states globaux. Comme ça c'est
             dit.
@@ -75,7 +75,7 @@ export default function Videos() {
 
       <div className="card w-full border border-neutral-content/50 bg-neutral text-neutral-content shadow-xl">
         <div className="card-body">
-          <h2 className="card-title">React #4 : Hooks + Render</h2>
+          <h2 className="card-title">React #5 : Hooks + Render</h2>
           <p>
             Plusieurs hooks permettent d'optimiser les renders de vos
             composants. On va les voir ensemble.

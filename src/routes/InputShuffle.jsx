@@ -29,7 +29,7 @@ export default function InputShuffle() {
           />
         ))}
       </div>
-      <h1 className="text-center text-2xl">Sans index key</h1>
+      <h1 className="text-center text-2xl">Avec index key</h1>
       <div className="grid grid-cols-2 gap-6">
         {fruits.map((fruit, index) => (
           <input
